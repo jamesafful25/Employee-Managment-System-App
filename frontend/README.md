@@ -12,6 +12,10 @@ Modern React + Vite frontend for managing employees, attendance, payroll, and HR
 - Employee dashboard
 - Attendance tracking
 - Payroll views
+- File uploads
+- Department views and creation
+- Reports downloads
+- Employee profile view and change of password
 - Authentication UI
 
 ## Setup
