@@ -26,6 +26,7 @@ Frontend (React)  --->  Backend API (Node.js/Express)  --->  Database (MySQL)
                            ├── Email Service (Nodemailer)
                            ├── File Uploads
                            └── Reporting System
+---
 
 ##  Docker Setup
 
