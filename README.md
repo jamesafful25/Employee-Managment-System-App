@@ -1,4 +1,4 @@
-# 🚀 Employee Management System (EMS)
+#  Employee Management System (EMS)
 
 A full-stack **Employee Management System (EMS)** built with modern technologies to manage employees, payroll, attendance, leave, performance, and reporting in a secure and scalable way.
 
@@ -191,7 +191,7 @@ npm run dev
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create `.env` in backend:
 
