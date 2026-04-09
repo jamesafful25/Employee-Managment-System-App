@@ -220,7 +220,7 @@ CLIENT_URL=http://localhost:5173
 * Real-time notifications
 * Charts & analytics dashboard
   
-## 👨‍💻 Author
+## Author
 
 **James Afful**
 Fullstack Developer | Backend-Focused | DevOps Engineer
@@ -236,4 +236,4 @@ This project showcases:
 * Real-world business logic
 * Clean frontend design
 
-👉 Built with a focus on **production readiness and scalability**
+Built with a focus on **production readiness and scalability**
