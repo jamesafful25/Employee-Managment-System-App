@@ -41,6 +41,10 @@ From the root directory:
 
 ```bash
 docker-compose up --build
+
+
+### docker-compose.yml
+
 version: "3.8"
 
 services:
