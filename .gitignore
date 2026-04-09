@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# Builds
+dist/
+build/
+dist-ssr/
+
+# Uploads (backend)
+uploads/
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
