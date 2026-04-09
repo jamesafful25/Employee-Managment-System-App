@@ -26,8 +26,50 @@ Frontend (React)  --->  Backend API (Node.js/Express)  --->  Database (MySQL)
                            ├── Email Service (Nodemailer)
                            ├── File Uploads
                            └── Reporting System
-```
 
+##  Docker Setup
+
+###  Prerequisites
+- Docker installed
+- Docker Compose installed
+
+---
+
+###  Run the Project
+
+From the root directory:
+
+```bash
+docker-compose up --build
+```
+version: "3.8"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: employee_db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+
+  db:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: employee_db
+    ports:
+      - "3306:3306"
 ---
 
 ##  Frontend Structure
