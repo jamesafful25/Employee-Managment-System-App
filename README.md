@@ -236,4 +236,4 @@ This project showcases:
 * Real-world business logic
 * Clean frontend design
 
-Built with a focus on **production readiness and scalability**
+ Built with a focus on **production readiness and scalability**
