@@ -41,7 +41,6 @@ From the root directory:
 
 ```bash
 docker-compose up --build
-```
 version: "3.8"
 
 services:
@@ -71,6 +70,7 @@ services:
     ports:
       - "3306:3306"
 ---
+```
 
 ##  Frontend Structure
 
